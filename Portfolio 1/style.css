@@ -1,0 +1,204 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	overflow-x:hidden;
+	font-family: helvetica;
+	background-image: url(image/albaedo.jpg);
+	color:white;
+
+}
+
+@keyframes fadeIn {
+
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+
+
+}
+
+hr {
+	width: 80%;
+	border:1px solid white;
+	opacity: 1;
+}
+
+.nama {
+	cursor: pointer;
+}
+
+.nama:hover {
+	border-radius: 0;
+}
+
+.main hr {
+	width:70%;
+}
+
+.header {
+	left:0px;
+	position: fixed;
+	display: flex;
+	background-color: black;
+	height: 50px;
+	color:white;
+	padding: 7px;
+	z-index: 999;
+	border-bottom: 3px solid #292929;
+}
+
+.header ul {
+	font-size: 20px;
+	display: flex;
+	list-style: none;
+	padding:3px 0;
+}
+
+.header ul li {
+	cursor: pointer;
+	}
+
+.header h4 {
+	margin-top: 3px;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.header li {
+	margin-top:-40px;
+	padding: 40px 100px;
+	text-decoration: none;
+	color:white;
+	transition: .3s;
+}
+
+.header li:hover {
+	background-color: #292929;
+}
+
+.header img {
+	margin-top: 1px;
+	width: 35px;
+	height: 35px;
+	border-radius:50%;
+	transition: .5s;
+}
+
+
+/*MAIN ISI*/
+
+.main {
+	overflow: hidden;
+	padding-top: 5% ;
+	width: 100px;
+	animation:fadeIn 1.5s;
+}
+
+.main p {
+	margin:0 10px;
+}
+
+
+/*ABOUT*/
+
+
+.container {
+	left:90px;
+	position: absolute;
+	padding-top: 15%;
+	animation:fadeIn 1.5s;
+}
+.container1 {
+	padding-top: 6%;
+	animation:fadeIn 1.5s; 
+}
+
+#aboutme {
+	cursor: pointer;
+	transition: .3s;
+}
+
+#aboutme:hover {
+	color: #b8b8b8;
+}
+
+.show {
+	cursor: pointer;
+	transition: .3s;
+}
+
+.show:hover {
+	color:#b8b8b8;
+}
+
+.show1 {
+	cursor: pointer;
+	transition: .3s;
+}
+
+.show1:hover {
+	color:#b8b8b8;
+}
+
+.hide1 img {
+	width:270px; height: 170px;
+}
+
+.hide img {
+	width:270px; height: 170px;
+}
+
+
+/*CONTACT*/
+
+.isiContact a {
+	text-decoration: none;
+	color:white;
+}
+
+.isiContact h3 {
+	font-size: 50px;
+
+}
+
+.contactJudul {
+	cursor:pointer;
+	transition: .3s;
+}
+
+.contactJudul h1:hover {
+	color:#b8b8b8;
+}
+
+/*PROJECT*/
+
+.container1 img {
+	height:200px; width:300px;
+	border:3px solid black;
+}
+
+.container1 .row {
+	margin:0 150px;
+}
+
+#myproject {
+	cursor: pointer;
+	transition: .3s;
+}
+
+#myproject:hover {
+	color:#b8b8b8;
+}
+
+#descProject {
+	padding-left: 50px; padding-right: 50px;
+
+}
+
